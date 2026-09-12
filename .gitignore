@@ -1,0 +1,15 @@
+# Generated measurements and compiler caches
+results/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Machine-specific shortcuts and hardware inventory
+*.lnk
+IGPU-compatibilidade.json
+
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
