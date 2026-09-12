@@ -1,7 +1,5 @@
 # GPU Math Benchmark — AMD, NVIDIA and Intel Arc
 
-The application uses a custom chip icon, included in `assets/chip.ico` (16–256 px) and `assets/chip.png`. Machine-specific Windows shortcuts are not included in the repository; launch with **INICIAR.cmd** or create your own shortcut.
-
 Requires Windows x64, 64-bit Python 3.10+ with Tkinter, and a compatible GPU driver. No pip packages or vendor SDKs are required to run the benchmark. The launcher uses Python from PATH when the optional bundled runtime is not present. Run host tests with `python -m unittest test_selection.py test_i18n.py`.
 
 Hardware support depends on the implemented instruction path and driver. NVIDIA kernels were checked with the PTX assembler but have not been run on NVIDIA hardware here; Intel XMX and AMD CDNA also require hardware validation. INT2 is reserved but not implemented. This measures kernel throughput, not guaranteed vendor peak performance. Consult the coverage table in **LEIA-ME.md** before comparing results.
